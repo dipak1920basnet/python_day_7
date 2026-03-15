@@ -1,0 +1,44 @@
+student = {
+"name": "Dipak",
+"age": 21
+}
+
+print(student[name])
+
+the program first_bug.py gives name error 
+this can be fixed with either declaring the variable and giving the value to a variable 
+or 
+keep the name inside of the double quotes. 
+
+solutions: 
+    student = {
+    "name": "Dipak",
+    "age": 21
+    }
+    print(student["name"])
+
+second_bug.py:
+
+product = {
+"name": "Laptop",
+"price": 1200
+}
+
+product["stock"] = 10
+
+for key in product:
+print(key, product[key])
+
+this program crashes because of Indentation error 
+this can be fixed by providing proper indentation below for loop. 
+
+solution:
+    product = {
+    "name": "Laptop",
+    "price": 1200
+    }
+
+    product["stock"] = 10
+
+    for key in product:
+        print(key, product[key])
