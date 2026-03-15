@@ -1,0 +1,15 @@
+List stores position based data 
+dictionary stores meaning based data 
+
+the dictionaries are also maintainable and readable
+
+
+
+
+
+
+#List organizes collections
+#Disctionary organized knowledges
+
+
+most of the real-world python system relies on dictionary based data modeling. 
