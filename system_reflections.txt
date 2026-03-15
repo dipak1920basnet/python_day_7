@@ -1,0 +1,12 @@
+1️⃣ Why are dictionaries more suitable for real-world data than lists?
+=>  dictionaries holds key value pair. 
+=> this key:value pair features of dictionary allows the program to be represented in the form of knowledge rather than just a order sequences. 
+
+2️⃣ Why do APIs use key-value structures?
+=> because key-value is easy to read and intrepret compared to ordered sequences. 
+
+3️⃣ What happens if a key is missing?
+=> this will cause keyerror
+
+4️⃣ Why does dictionary structure improve readability?
+=> it is a key value pair allowing us to know what the value is assigned for. 
