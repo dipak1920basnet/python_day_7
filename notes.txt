@@ -1,0 +1,56 @@
+#Lists are useful for ordered data storages. 
+
+Real world data is not just a orderd sequence it is a structured records. 
+example: 
+    name → Dipak
+    age → 21
+    country → Nepal
+    email → dipak@email.com
+
+this structure is known as key value mapping. 
+
+A dictionary stores key-value pair.
+example:
+    student = {
+    "name": "Dipak",
+    "age": 21,
+    "gpa": 3.7
+    }
+concepts:
+    "name" → "Dipak"
+    "gpa" → 3.7
+    "age" → 21
+
+in list we used the numeric index here in dict we will be using key. 
+
+accessing values:
+    print(student["name"])
+
+modifying values:
+    print(student["name"])
+
+new dictionary:
+{
+"name": "Dipak",
+"age": 21,
+"gpa": 3.9
+}
+
+add new fields:
+student["major"] = "Computer Science"
+
+Iterating through dictionaries:
+for key in student:
+    print(key, student[key])
+
+dictionaries are useful because the real system uses records not the raw numbers. 
+
+example: ml dataset row:
+sample = {
+"age": 25,
+"income": 40000,
+"loan_default": False
+}
+
+dictionaries allows the program to model the structured information. 
+
